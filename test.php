@@ -1,3 +1,2 @@
 <?php
-phpinfo();
-?>
+echo "PHP is running"?>
