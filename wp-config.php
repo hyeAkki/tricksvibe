@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The base configuration for WordPress
  *
@@ -29,7 +30,7 @@ define( 'DB_USER', 'chutiyatv' );
 define( 'DB_PASSWORD', 'asdf1234' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'mydb.c8tjsfky7e62.ap-south-1.rds.amazonaws.com' );
+define( 'DB_HOST', 'tv-prod-db.c8tjsfky7e62.ap-south-1.rds.amazonaws.com' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -66,7 +67,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'uwvjm_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -91,3 +92,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );
+//Disable File Edits
+define('DISALLOW_FILE_EDIT', true);
