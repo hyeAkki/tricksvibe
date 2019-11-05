@@ -1,5 +1,5 @@
 <?php
-/*//Begin Really Simple SSL Load balancing fix
+//Begin Really Simple SSL Load balancing fix
 if ((isset($_ENV["HTTPS"]) && ("on" == $_ENV["HTTPS"]))
 || (isset($_SERVER["HTTP_X_FORWARDED_SSL"]) && (strpos($_SERVER["HTTP_X_FORWARDED_SSL"], "1") !== false))
 || (isset($_SERVER["HTTP_X_FORWARDED_SSL"]) && (strpos($_SERVER["HTTP_X_FORWARDED_SSL"], "on") !== false))
@@ -11,7 +11,7 @@ if ((isset($_ENV["HTTPS"]) && ("on" == $_ENV["HTTPS"]))
 $_SERVER["HTTPS"] = "on";
 }
 //END Really Simple SSL
-*/
+
 /**
  * The base configuration for WordPress
  *
