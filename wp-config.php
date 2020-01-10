@@ -21,13 +21,13 @@ if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')
  */
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'dbnameva' );
+define( 'DB_NAME', 'tvdb' );
 /** MySQL database username */
-define( 'DB_USER', 'usernameva' );
+define( 'DB_USER', 'chutiyatv' );
 /** MySQL database password */
-define( 'DB_PASSWORD', 'passwordva' );
+define( 'DB_PASSWORD', 'asdf1234' );
 /** MySQL hostname */
-define( 'DB_HOST', 'hostva' );
+define( 'DB_HOST', 'tvdb.c8tjsfky7e62.ap-south-1.rds.amazonaws.com' );
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 /** The Database Collate type. Don't change this if in doubt. */
@@ -58,7 +58,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'prefixva_';
+$table_prefix = 'tvchu_';
 /**
  * For developers: WordPress debugging mode.
  *
